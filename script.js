@@ -3,11 +3,12 @@ function chatbotResponse(input) {
 input = input.toLowerCase();
 
 if (input.includes("skills")) {
-return "My skills include IT troubleshooting, networking, Linux, and Python scripting.";
+return "My skills include IT  Technical Support, Windows Administration, Troubleshooting, Azure /Cloud Computing, Service Desk, Help Desk Support,Active Directoffice 365 / Microsoft 365.";
 }
 
 else if (input.includes("certifications")) {
 return "I have CompTIA A+ and CompTIA Security+ certifications.";
+  
 }
 
 else if (input.includes("projects")) {
@@ -15,7 +16,7 @@ return "You can view my projects in the Projects section above.";
 }
 
 else if (input.includes("experience")) {
-return "I have internship experience supporting IT systems and troubleshooting technical issues.";
+return "I have internship experience  IT Support Specialist and troubleshooting technical issues.";
 }
 
 else {
@@ -33,4 +34,5 @@ let response = chatbotResponse(input);
 document.getElementById("response").innerText = response;
 
 }
+
 
