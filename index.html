@@ -1,59 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Emmanuel Njinya| IT Support Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Njinya Emmanuel | IT Support Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- Navigation -->
 <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#resume">Resume</a>
+<a href="#contact">Contact</a>
 </nav>
 
-<section id="home">
-    <h1>Emmanuel Njinya </h1>
-    <p>IT Support Specialist | Windows • Active Directory • Azure • Help Desk 
-        • Technical Support | CompTIA Security+ Certified| CompTIA  A+ Certified|</p>
-</section>
+<!-- HOME -->
+<header id="home">
 
+<h1>Njinya Emmanuel</h1>
+
+<p>
+IT Support Specialist | CompTIA A+ | Security+
+</p>
+
+<h3>Scan to View My Portfolio</h3>
+
+<img src="images/qrcode.png" width="150" alt="Portfolio QR Code">
+
+</header>
+
+<!-- ABOUT -->
 <section id="about">
-    <h2>About Me</h2>
-    <p>Include education, skills, internship experience.</p>
+
+<h2>About Me</h2>
+
+<p>
+Entry-level IT Support Specialist with experience troubleshooting
+Windows and Linux systems. Skilled in networking fundamentals,
+Python scripting, and system administration. Passionate about
+solving technical issues and supporting users.
+</p>
+
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
-    <h2>Projects</h2>
-    <p>Packet Sniffer Project</p>
-    <a href="https://github.com/yourusername/project1">View on GitHub</a>
-</section>
 
-<section id="resume">
-    <h2>Resume</h2>
-    <a href="resume.pdf" download>Download Resume</a>
-</section>
+<h2>Projects</h2>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-    <form>
-        <input type="text" placeholder="Emmanuel Njinya">
-        <input type="email" placeholder="njinyaemmanuel@gmail.com">
-        <textarea placeholder="Greetings everyone if you need inquires send an email
-            i will get back to you within twenty-fours hours."></textarea>
-        <button type="submit">Send</button>
-    </form>
-</section>
-    <div id="chatbot">
-    <input type="text" id="userInput">
-    <button onclick="sendMessage()">Ask</button>
-    <p id="response"></p>
+<div class="card">
+
+<h3>Packet Sniffer Tool</h3>
+
+<p>
+Python-based packet sniffer that captures and analyzes network traffic
+using Scapy.
+</p>
+
+<a href="https://github.com/YOURUSERNAME/packet-sniffer" target="_blank">
+View on GitHub
+</a>
+
 </div>
 
+<div class="card">
+
+<h3>Linux Server Configuration</h3>
+
+<p>
+Configured a Linux server environment for testing networking and
+system security concepts.
+</p>
+
+<a href="https://github.com/YOURUSERNAME/linux-project" target="_blank">
+View on GitHub
+</a>
+
+</div>
+
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+
+<h2>Resume</h2>
+
+<p>Download my professional resume below.</p>
+
+<a href="resume.pdf" download class="btn">
+Download Resume
+</a>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Send</button>
+
+</form>
+
+</section>
+
+<!-- CHATBOT -->
+<div class="chatbot">
+
+<h3>Chat with Me</h3>
+
+<input type="text" id="userInput" placeholder="Ask about my skills">
+
+<button onclick="sendMessage()">Send</button>
+
+<p id="response"></p>
+
+</div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
-
