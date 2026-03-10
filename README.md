@@ -3,7 +3,7 @@
 Overview:
 This project is Emmanuel N personal portfolio website designed to briefly showcase my technical skills, certifications, projects, and experience in Information Technology. 
 The objective of this websites is to provide a centralized platform where recruiters, instructors, and  employers can easily learn more about my background and explore the projects I have completed.
-# The website was written in HTML, CSS and JavaScript
+# The website was written in (HTML, CSS and JavaScript)
 The website was developed using HTML, CSS, and JavaScript and deployed online using GitHub Pages.
 This portfolio demonstrates my ability to build a responsive website, integrate interactive features, and manage a project using version control.
 
