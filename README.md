@@ -45,13 +45,13 @@ Interactive Features
 Chatbot
 The portfolio includes a simple interactive chatbot developed with JavaScript.
 The chatbot responds to user questions related to my:
-# the skill tells what i have gained
+# The skill tells what i have gained.
 Skills
-# the certification what certificate I have achieved
+# The certification what certificate I have achieved
 Certifications
 # It will tell the  projects i have worked
 Projects
-# the current job that i am doing at the moment
+# The current job that i am doing at the moment
 Experience
 
 This feature improves user engagement by allowing visitors to quickly obtain information about my qualifications.
@@ -60,19 +60,12 @@ QR Code Integration
 
 A QR code is included on the homepage that links directly to the live portfolio website. 
 This feature allows users to easily access the website from a mobile device by scanning the QR code.
-
 The QR code is also included in my resume to make it easier for recruiters and employers to access my online portfolio.
 
 Technologies Used
-
 This project was built using the following technologies:
-
 HTML – website structure
-
 CSS – styling and layout design
-
 JavaScript – interactive features and chatbot functionality
-
 GitHub – version control and repository hosting
-
 GitHub Pages – deployment of the live website
